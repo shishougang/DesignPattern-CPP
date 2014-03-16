@@ -1,7 +1,6 @@
 README
 ======
-This project contains design pattern using C++ for my articles 浅谈模
-式设计.
+This project contains design pattern using C++ for my articles 浅谈模式设计.
 
 Dependencies
 ============
@@ -23,7 +22,6 @@ INSTALLING
 ==========
 
  Once the project has been built (see "BUILDING"), execute
-
- sudo make install
+    sudo make install
 
 
