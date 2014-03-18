@@ -16,12 +16,11 @@ BUILDING
 
         mkdir build
         cd build && cmake ..
-        make test
+        make
 
-INSTALLING
+EXECUTE
 ==========
 
- Once the project has been built (see "BUILDING"), execute
-    sudo make install
+Once the project has been built (see "BUILDING"), go to folder `bin` to execute different test.
 
 

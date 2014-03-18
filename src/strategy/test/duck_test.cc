@@ -13,8 +13,7 @@ using std::endl;
 #include "strategy/decoy_duck.h"
 #include "strategy/model_duck.h"
 #include "strategy/fly_rocketpowered.h"
-using namespace strategy;
-//namespace strategy {
+using namespace strategy;  // NOLINT
 int main(int argc, char *argv[]) {
   MallardDuck *mallard = new MallardDuck;
   RubberDuck *rubberDuckie = new RubberDuck;
@@ -30,4 +29,3 @@ int main(int argc, char *argv[]) {
   model->performFly();
   return 0;
 }
-//}  // namespace strategy
