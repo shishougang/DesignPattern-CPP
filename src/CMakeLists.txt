@@ -1,2 +1,3 @@
 add_subdirectory(strategy)
 add_subdirectory(observer)
+add_subdirectory(decorator)
