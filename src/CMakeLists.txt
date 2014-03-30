@@ -1,3 +1,7 @@
 add_subdirectory(strategy)
 add_subdirectory(observer)
 add_subdirectory(decorator)
+add_subdirectory(factory_method)
+add_subdirectory(abstract_factory)
+add_subdirectory(command)
+add_subdirectory(adapter)

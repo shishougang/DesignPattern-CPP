@@ -20,13 +20,20 @@ int main(int argc, char *argv[]) {
 
   Pizza *pizza = nyStore->orderPizza("cheese");
   cout << "Ethan ordered a " + pizza->toString() << endl;
+  delete pizza;
   pizza = chicagoStore->orderPizza("cheese");
   cout << "Joel ordered a " + pizza->toString() << endl;
+  delete pizza;
 
   pizza = nyStore->orderPizza("clam");
   cout << "Ethan ordered a " + pizza->toString() << endl;
+  delete pizza;
   pizza = chicagoStore->orderPizza("clam");
   cout << "Joel ordered a " + pizza->toString() << endl;
-  
+  delete pizza;
+
+  delete nyStore;
+  delete chicagoStore;
+
   return 0;
 }
