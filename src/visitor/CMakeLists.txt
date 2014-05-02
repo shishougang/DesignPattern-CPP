@@ -6,7 +6,8 @@ add_library(designpattern_visitor STATIC
   car_element_print_visitor.cc
   wheel.cc
   car_element_do_visitor.cc
-  engine.cc)
+  engine.cc
+  car.cc)
 
 install(TARGETS designpattern_visitor DESTINATION ${LIBRARY_OUTPUT_PATH})
 
